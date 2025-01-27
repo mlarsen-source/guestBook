@@ -51,6 +51,16 @@ h1
   width: 100%;
 }
 
+label
+{
+  display:block; 
+}
+
+input
+{
+  display: block;
+}
+
 #fname,#lname,#title,#company,#linked,#email
 {
   border: .1rem solid #d3d3d3;
@@ -82,20 +92,10 @@ textarea
   border-radius: .2rem;
 }
 
-label
-{
-  display:block; 
-}
-
-input
-{
-  display: block;
-}
-
 .inline
 {
   display: inline;
-  margin-bottom: .5rem;
+  margin-bottom: .6rem;
 }
 
 #button
